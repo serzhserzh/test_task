@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="chekList">
+      <div class="chekListInfo">
+        <svg
+          width="70"
+          height="70"
+          viewBox="0 0 70 70"
+          style="transform: rotate(-90deg)"
+        >
+          <circle
+            r="30"
+            cx="35"
+            cy="35"
+            fill="transparent"
+            stroke="#ffffff"
+            stroke-width="1"
+            stroke-dasharray="314px"
+            stroke-dashoffset="0"
+            style="opacity: 0.5"
+          ></circle>
+          <circle
+            class="progress"
+            r="30"
+            cx="35"
+            cy="35"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-dashoffset="178.98px"
+            fill="transparent"
+            stroke-dasharray="188.4px"
+          ></circle>
+          <text
+            x="24px"
+            y="41px"
+            fill="#ffffff"
+            font-size="20px"
+            font-weight="400"
+            style="transform: rotate(90deg) translate(-5px, -68px)"
+          >
+            0/7
+          </text>
+        </svg>
+        <div class="chekListInfo__text">
+          <span>Чеклист</span>
+          <h2>Выполнено: 0 из 7 действий</h2>
+          <p>Следующее действие: Созвониться с клиентом до 23.05.24 12:00</p>
+        </div>
+      </div>
+      <button class="chekList__button">Открыть чеклист</button>
+    </div>
+  </body>
+</html>
